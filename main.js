@@ -31,6 +31,7 @@ console.log(people.some(checkAges));
 
 //======================================================================
 // Array.prototype.every() // is everyone 19 or older?
+console.log(people.every(checkAges));
 
 // Array.prototype.find()
 // Find is like filter, but instead returns just the one you are looking for
