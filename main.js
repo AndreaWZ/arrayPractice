@@ -48,9 +48,6 @@ console.log(comments.find(findComment));
 // Array.prototype.findIndex()
 // Find the comment with this ID
 // delete the comment with the ID of 823423
-// for(let i = 0; i < comments.length; i ++){
-//   console.log(comments[i].splice(comments.findIndex(findComment), 1));
-// }
 
 console.log(comments.splice(comments.findIndex(findComment), 1));
 console.log(comments);
